@@ -22,6 +22,10 @@
   Being a big binge-watcher since long time, i have always been looking for good movies/shows to watch online.but to my disappointment there are'nt
   many online community build around binge-watchers. talking about things you watch has to be one of the best way to bond with people. so there had to 
   be a place where you could share your opinions,things you like, your favourite movie,tv shows,dialogues,actor,director.. with your friends and know their opinions and prefrences too.
+  
+  **A good movie can change your life**
+ 
+![imagePlaceholder](https://wp.scoopwhoop.com/wp-content/uploads/2016/07/57985a7a6e510a52b9206c5c_251133433.png)
 
 
 #### Project Description
@@ -97,13 +101,14 @@ if (this_is_one_thing
 
 
 #### Features
+```
   - user can search for any movie,show,actors and directors by keywords
   - like and add content to your favourite list
   - post your reviews on content pages
   - share your list with your friends and view theirs
   - know what your friends are watching
   - get personalized recommendation based on your watch history and what's popular amongs your friend
-  
+  ```
   
 
 #### Contribute
@@ -131,7 +136,7 @@ directly or indirectly contributed, with best of my knowledge i have mentioned t
 [just watch](https://www.justwatch.com/) <br>
 #### License
 
-Copyright (c) 2023 Shubham Santoki
+Copyright <sup>(c)</sup> 2023 Shubham Santoki
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell. copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
