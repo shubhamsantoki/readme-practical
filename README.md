@@ -6,13 +6,15 @@
 
 
 ## Table of Contents
-[Motivation](motivation)
-[Project Description](project-description)
-[Tech/Framework used](tech/framework-used)
-[Features](features)
-[Contribute](contribute)
-[Credits](credits)
-[License](liscense)
+[Motivation](#motivation) <br/>
+[Project Description](#project-description) <br/>
+[Code Style](#code-style) <br>
+[Screenshots](#screenshots) <br>
+[Technology used](#technology-used) <br/>
+[Features](#features) <br/>
+[Contribute](#contribute) <br/>
+[Credits](#credits) <br/>
+[License](#license) <br/>
 
 
 
@@ -27,10 +29,63 @@
 the main goal of this project is to build a community around binge watchers where their opinions matters and they can connect better with their friends. As of now there are'nt many such websites, hopefully this will be a viable solution to that and end the waiting. overall objective of this
 project is to cater to bingewatching community and to build something which i wanted to be built for myself. i'd be deeply honoured if this ends up inspiring people to develop what they always wanted and cater to needs of our community however small or insignificant that may be. 
 
+#### Code Style
+[PEP 8](https://peps.python.org/pep-0008/) – Style Guide for Python Code
+
+- Use 4 spaces per indentation level.
+- Spaces are the preferred indentation method.
+- Tabs should be used solely to remain consistent with code that is already indented with tabs.
+- Python disallows mixing tabs and spaces for indentation.
+- Limit all lines to a maximum of 79 characters.
+- For flowing long blocks of text with fewer structural restrictions (docstrings or comments), the line length should be limited to 72 characters.
+- Surround top-level function and class definitions with two blank lines.
+- Method definitions inside a class are surrounded by a single blank line.
+
+```python
+	# Correct:
+
+# Aligned with opening delimiter.
+foo = long_function_name(var_one, var_two,
+                         var_three, var_four)
+
+# Add 4 spaces (an extra level of indentation) to distinguish arguments from the rest.
+def long_function_name(
+        var_one, var_two, var_three,
+        var_four):
+    print(var_one)
+
+# Hanging indents should add a level.
+foo = long_function_name(
+    var_one, var_two,
+    var_three, var_four)
+#
+
+```
+```python
+# No extra indentation.
+if (this_is_one_thing and
+    that_is_another_thing):
+    do_something()
+
+# Add a comment, which will provide some distinction in editors
+# supporting syntax highlighting.
+if (this_is_one_thing and
+    that_is_another_thing):
+    # Since both conditions are true, we can frobnicate.
+    do_something()
+
+# Add some extra indentation on the conditional continuation line.
+if (this_is_one_thing
+        and that_is_another_thing):
+    do_something()
+```
 
 
+#### Screenshots
+![placeholder](https://www.lifewire.com/thmb/RbocY4XParI3QFD_eaqFBRU-SeY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/imdb-what-to-watch-d3c2befe37d04ac5b2e22696464a13eb.png?raw=true)
 
-#### Tech/Framework used
+
+#### Technology used
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) <br/>
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white) <br/>
@@ -42,36 +97,27 @@ project is to cater to bingewatching community and to build something which i wa
 
 
 #### Features
-  user can search for any movie,show,actors and directors by keywords
-  like and add content to your favourite list
-  post your reviews on content pages
-  share your list with your friends and view theirs
-  know what your friends are watching
-  get personalized recommendation based on your watch history and what's popular amongs your friend
+  - user can search for any movie,show,actors and directors by keywords
+  - like and add content to your favourite list
+  - post your reviews on content pages
+  - share your list with your friends and view theirs
+  - know what your friends are watching
+  - get personalized recommendation based on your watch history and what's popular amongs your friend
   
   
-
-
-
-#### Installation
-
-
-
-#### How to Use?
-
-
 
 #### Contribute
 
 Contributions, issues and feature requests are welcome! Start by:
-
-Forking the project
-Cloning the project to your local machine
-cd into the project directory
-Run git checkout -b your-branch-name
-Make your contributions
-Push your branch up to your forked repository
-Open a Pull Request with a detailed description to the development branch of the original project for a review
+<ol>
+<li>Forking the project </li>
+<li>Cloning the project to your local machine </li>
+<li>cd into the project directory </li>
+<li>Run git checkout -b your-branch-name </li>
+<li>Make your contributions </li>
+<li>Push your branch up to your forked repository </li>
+<li>Open a Pull Request with a detailed description to the development branch of the original project for a review </li>
+</ol>
 
 
 
@@ -80,6 +126,9 @@ Open a Pull Request with a detailed description to the development branch of the
 This project wouldn't have been possible on my own without any outside help or inspiration.i am deeply grateful for all the sources and people who have
 directly or indirectly contributed, with best of my knowledge i have mentioned them below and if i missed out on some feel free to ping me.
 
+[imdb page](https://www.imdb.com/) <br>
+[rotten tomatoes](https://www.rottentomatoes.com/) <br>
+[just watch](https://www.justwatch.com/) <br>
 #### License
 
 Copyright (c) 2023 Shubham Santoki
